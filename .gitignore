@@ -1,0 +1,21 @@
+# python precompiled files:
+
+*.pyc
+*.pyo
+*.log
+.idea
+*__pycache__*
+
+/py_dev_ib/settings_local.py
+
+/tmp
+
+/logs
+
+/db.sqlite3
+
+/static
+
+/venv_3_5_2
+
+/files

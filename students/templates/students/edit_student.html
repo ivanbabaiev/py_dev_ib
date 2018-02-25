@@ -1,0 +1,63 @@
+{% extends 'main/base.html' %}
+
+
+{% load staticfiles %}
+
+
+{% load crispy_forms_tags %}
+
+
+{% block title %}Студент{% endblock %}
+
+
+{% block meta %}
+    <style>
+        .table tr td {
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+    <script>
+
+    </script>
+
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="row">
+                <h3 style="text-align: center">Студент</h3>
+                {% crispy form %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block meta_end_body %}
+
+<script>
+
+  $(document).ready(function () {
+      change_url_rdit();
+  });
+
+  $('#id_group').on('change', function () {
+       change_url_rdit();
+  });
+
+  function change_url_rdit() {
+      let url_edit = $('#group_url').attr('href').split('/');
+      let url_edit_last_index = url_edit.slice(-1).toString().split('?');
+      url_edit_last_index[0] = $('#id_group').val();
+      url_edit[url_edit.length-1] = url_edit_last_index.join('?');
+      $('#group_url').attr('href', url_edit.join('/'));
+
+  }
+
+</script>
+
+{% endblock %}

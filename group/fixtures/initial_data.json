@@ -1,0 +1,38 @@
+[
+   {
+      "pk": 1,
+      "model": "group.group", 
+      "fields": {
+         "name": "RR113"
+      }
+   },
+   {
+      "pk": 2,
+      "model": "group.group",
+      "fields": {
+         "name": "RR114"
+      }
+   },
+   {
+      "pk": 3,
+      "model": "group.group",
+      "fields": {
+         "name": "RR115"
+      }
+   },
+   {
+      "pk": 4,
+      "model": "group.group",
+      "fields": {
+         "name": "RR116"
+      }
+   },
+   {
+      "pk": 5,
+      "model": "group.group",
+      "fields": {
+         "name": "RR117"
+      }
+   }
+
+  ]

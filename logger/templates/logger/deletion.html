@@ -1,0 +1,38 @@
+{% extends 'main/base.html' %}
+
+{%load i18n%}
+
+{% block title %}{%trans "Удаление из"%}
+    {% if instance_type == 1 %}
+        {%trans "студентов"%}
+    {% else %}
+        {%trans "групп"%}
+    {% endif %}
+{% endblock %}
+
+
+{% block content %}
+
+    <a href="{% url 'group:groups_list' %}">{%trans "Перейти на главную страницу сайта"%}</a>
+
+    <h3>
+      {%trans "Удалить из"%}
+        {% if instance_type == 1 %}
+          {%trans "студентов"%}
+        {% else %}
+          {%trans "групп"%}
+        {% endif %}
+      [ {{ instance }} ]
+    </h3>
+
+    <form method="POST" action="{% if instance_type == 1 %}
+                                  {% url 'students:remove_student' instance.id %}
+                                {% else %}
+                                  {% url 'group:remove_group' instance.id %}
+                                {% endif %}">
+        {% csrf_token %}
+        {{ form.as_table }}
+        <input type="submit" value='{%trans "Подтвердить"%}'>
+    </form>
+
+{% endblock %}

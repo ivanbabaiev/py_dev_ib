@@ -1,0 +1,23 @@
+{% extends "main/base.html" %}
+
+{% load i18n %}
+
+{% load staticfiles %}
+
+{% block title %}{% trans "Register" %}{% endblock %}
+
+
+{% block content %}
+  <form action="" method="POST">
+    <table>
+      {% csrf_token %}
+      <h2>Создайте Ваш аккаунт здесь</h2>
+      <div style="text-align: center">
+        {{ form.as_table }}
+      </div>
+    </table>
+    <div style="text-align: center">
+      <p><input style="text-align: center" type="submit" value="Зарегистироваться"></p>
+    </div>
+  </form>
+{% endblock content %}

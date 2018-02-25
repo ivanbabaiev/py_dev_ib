@@ -1,0 +1,16 @@
+{% extends "main/base.html" %}
+
+{% load i18n %}
+
+{% load staticfiles %}
+
+{% block title %}{% trans "Activation complete" %}{% endblock %}
+
+
+{% block content %}
+
+  {% csrf_token %}
+
+  <h2>Ваша регистрация успешно завершена! <a href="{% url 'auth_login' %}" class="after_link">Вход</a></h2>
+
+{% endblock content %}

@@ -1,0 +1,352 @@
+[
+   {
+      "pk": 1, 
+      "model": "students.student",
+      "fields": {
+         "name": "Сергей",
+         "surname": "Крылов",
+         "father_name": "Александрович",
+         "group": 1,
+         "student_card": "RR112-879",
+         "date_of_birth": "1981-05-23"
+      }
+   },
+   {
+      "pk": 2,
+      "model": "students.student",
+      "fields": {
+         "name": "Олег",
+         "surname": "Карпачева",
+         "father_name": "Владимировна",
+         "group": 2,
+         "student_card": "RR112-5",
+         "date_of_birth": "1999-05-12"
+      }
+   },
+   {
+      "pk": 3,
+      "model": "students.student",
+      "fields": {
+         "name": "Юлия",
+         "surname": "Тимошенко",
+         "father_name": "Владимировна",
+         "group": 3,
+         "student_card": "RR112-79",
+         "date_of_birth": "2003-01-30"
+      }
+   },
+   {
+      "pk": 4,
+      "model": "students.student",
+      "fields": {
+         "name": "Елена",
+         "surname": "Беляева",
+         "father_name": "Игоревна",
+         "group": 4,
+         "student_card": "RR112-5678",
+         "date_of_birth": "1998-02-05"
+      }
+   },
+   {
+      "pk": 5,
+      "model": "students.student",
+      "fields": {
+         "name": "Анастасия",
+         "surname": "Волочкова",
+         "father_name": "Ивановна",
+         "group": 5,
+         "student_card": "RR112-09",
+         "date_of_birth": "1999-01-15"
+      }
+   },
+   {
+      "pk": 6,
+      "model": "students.student",
+      "fields": {
+         "name": "Антон",
+         "surname": "Волочков",
+         "father_name": "Григорьевич",
+         "group": 1,
+         "student_card": "RR112-89",
+         "date_of_birth": "2002-02-06"
+      }
+   },
+   {
+      "pk": 7,
+      "model": "students.student",
+      "fields": {
+         "name": "Александр",
+         "surname": "Фролов",
+         "father_name": "Николаевич",
+         "group": 2,
+         "student_card": "RR112-86",
+         "date_of_birth": "2004-08-18"
+      }
+   },
+   {
+      "pk": 8,
+      "model": "students.student",
+      "fields": {
+         "name": "Елена",
+         "surname": "Сергиенко",
+         "father_name": "Анатольевна",
+         "group": 3,
+         "student_card": "RR112-45",
+         "date_of_birth": "1989-05-15"
+      }
+   },
+   {
+      "pk": 9,
+      "model": "students.student",
+      "fields": {
+         "name": "Сергей",
+         "surname": "Колесников",
+         "father_name": "Дмитриевич",
+         "group": 4,
+         "student_card": "RR112-7",
+         "date_of_birth": "1992-03-14"
+      }
+   },
+   {
+      "pk": 10,
+      "model": "students.student",
+      "fields": {
+         "name": "Елена",
+         "surname": "Лещенко",
+         "father_name": "Сергеевна",
+         "group": 5,
+         "student_card": "RR112-78",
+         "date_of_birth": "1994-10-23"
+      }
+   },
+   {
+      "pk": 12,
+      "model": "students.student",
+      "fields": {
+         "name": "Иван",
+         "surname": "Набокин",
+         "father_name": "Евгеньевич",
+         "group": 2,
+         "student_card": "RR112-567",
+         "date_of_birth": "1998-06-26"
+      }
+   },
+   {
+      "pk": 13,
+      "model": "students.student",
+      "fields": {
+         "name": "Ирина",
+         "surname": "Романова",
+         "father_name": "Алаксандровна",
+         "group": 3,
+         "student_card": "RR112-8",
+         "date_of_birth": "1993-08-26"
+      }
+   },
+   {
+      "pk": 14,
+      "model": "students.student",
+      "fields": {
+         "name": "Олег",
+         "surname": "Убоженко",
+         "father_name": "Вечяславович",
+         "group": 4,
+         "student_card": "RR112-56",
+         "date_of_birth": "1996-09-25"
+      }
+   },
+   {
+      "pk": 15,
+      "model": "students.student",
+      "fields": {
+         "name": "Жанна",
+         "surname": "Павлова",
+         "father_name": "Алексеевна",
+         "group": 1,
+         "student_card": "RR112-5678",
+         "date_of_birth": "2004-04-23"
+      }
+   },
+   {
+      "pk": 16,
+      "model": "students.student",
+      "fields": {
+         "name": "Николай",
+         "surname": "Нечипоренко",
+         "father_name": "Владимирович",
+         "group": 1,
+         "student_card": "RR1-22",
+         "date_of_birth": "1992-03-26"
+      }
+   },
+   {
+      "pk": 17,
+      "model": "students.student",
+      "fields": {
+         "name": "Сергей",
+         "surname": "Пархоменко",
+         "father_name": "Иванович",
+         "group": 3,
+         "student_card": "RR112-45",
+         "date_of_birth": "1993-10-23"
+      }
+   },
+   {
+      "pk": 18,
+      "model": "students.student",
+      "fields": {
+         "name": "Ольга",
+         "surname": "Терентева",
+         "father_name": "Витальевна",
+         "group": 4,
+         "student_card": "RR112-45",
+         "date_of_birth": "1985-11-21"
+      }
+   },
+   {
+      "pk": 19,
+      "model": "students.student",
+      "fields": {
+         "name": "Артем",
+         "surname": "Савченко",
+         "father_name": "Петрович",
+         "group": 5,
+         "student_card": "RR112-57",
+         "date_of_birth": "1980-02-16"
+      }
+   },
+   {
+      "pk": 20,
+      "model": "students.student",
+      "fields": {
+         "name": "Вадим",
+         "surname": "Шевченко",
+         "father_name": "Игоревич",
+         "group": 3,
+         "student_card": "RR112-657",
+         "date_of_birth": "1998-02-24"
+      }
+   },
+   {
+      "pk": 21,
+      "model": "students.student",
+      "fields": {
+         "name": "Елена",
+         "surname": "Кузнецова",
+         "father_name": "Алексеевна",
+         "group": 2,
+         "student_card": "RR112-65",
+         "date_of_birth": "1989-06-14"
+      }
+   },
+   {
+      "pk": 22,
+      "model": "students.student",
+      "fields": {
+         "name": "Юрий",
+         "surname": "Сапин",
+         "father_name": "Максимович",
+         "group": 1,
+         "student_card": "RR112-57",
+         "date_of_birth": "1987-03-27"
+      }
+   },
+   {
+      "pk": 23,
+      "model": "students.student",
+      "fields": {
+         "name": "Денис",
+         "surname": "Трофимов",
+         "father_name": "Романович",
+         "group": 1,
+         "student_card": "RR112-776",
+         "date_of_birth": "1989-02-24"
+      }
+   },
+   {
+      "pk": 24,
+      "model": "students.student",
+      "fields": {
+         "name": "Константин",
+         "surname": "Фурсов",
+         "father_name": "Иванович",
+         "group": 3,
+         "student_card": "RR112-68",
+         "date_of_birth": "1990-08-17"
+      }
+   },
+   {
+      "pk": 25,
+      "model": "students.student",
+      "fields": {
+         "name": "Юрий",
+         "surname": "Жуков",
+         "father_name": "Алексеевич",
+         "group": 5,
+         "student_card": "RR112",
+         "date_of_birth": "1996-05-29"
+      }
+   },
+   {
+      "pk": 26,
+      "model": "students.student",
+      "fields": {
+         "name": "Иосиф",
+         "surname": "Висарионович",
+         "father_name": "Сталин",
+         "group": 1,
+         "student_card": "RR112-67",
+         "date_of_birth": "2003-11-01"
+      }
+   },
+   {
+      "pk": 27,
+      "model": "students.student",
+      "fields": {
+         "name": "Анна",
+         "surname": "Панасенко",
+         "father_name": "Вечяславовна",
+         "group": 2,
+         "student_card": "RR112-67",
+         "date_of_birth": "1992-12-12"
+      }
+   },
+   {
+      "pk": 28,
+      "model": "students.student",
+      "fields": {
+         "name": "Карина",
+         "surname": "Романенко",
+         "father_name": "Романовна",
+         "group": 1,
+         "student_card": "RR112-68",
+         "date_of_birth": "1987-04-18"
+      }
+   },
+   {
+      "pk": 29,
+      "model": "students.student",
+      "fields": {
+         "name": "Игорь",
+         "surname": "Клочко",
+         "father_name": "Артемович",
+         "group": 3,
+         "student_card": "RR112-787",
+         "date_of_birth": "1998-11-25"
+      }
+   },
+   {
+      "pk": 30,
+      "model": "students.student",
+      "fields": {
+         "name": "Валентин",
+         "surname": "Стругацкий",
+         "father_name": "Денисович",
+         "group": 5,
+         "student_card": "RR112-78",
+         "date_of_birth": "1883-12-21"
+      }
+   }
+
+
+]

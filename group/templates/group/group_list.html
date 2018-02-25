@@ -1,0 +1,58 @@
+{% extends 'main/base.html' %}
+
+{% load staticfiles %}
+
+{% load i18n %}
+
+{% block title %} Группы {% endblock %}
+
+
+{% block content %}
+<div class="table-wrapper">
+  <h3>Группы</h3>
+
+  <a style="float: left" href="{%  url 'group:add_group' %}"
+                         type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Добавить </a>
+  <br>
+  <br>
+
+  <table border="0" rules="all" cellpadding="10" width='50%'>
+    <thead>
+      <tr>
+          <th>П/П</th>
+          <th>Группа</th>
+          <th>Количество студентов</th>
+          <th>Староста</th>
+          <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for group in group_list %}
+        <tr>
+          <td>{{ forloop.counter }}</td>
+          <td><a class="id_back_counterparty" href="{% url 'group:group_detail' group.id %}">{{ group.name }}</a></td>
+          <td>
+            {% for key, val in dict.items %}
+              {% if group.id == key %}
+                {{ val }}
+              {% endif %}
+            {% endfor %}
+          </td>
+          <td>{{ group.captain.get_name }}</td>
+          <td>
+            <a href="{% url 'group:edit_group' group.id %}"
+               class="btn-floating waves-effect waves-light white z-depth-0">
+              <i style="color: #1643b8;">Редактировать</i></a> /
+            <a href="{% url 'group:remove_group' group.id %}"
+               class="btn-floating waves-effect waves-light white z-depth-0">
+              <i style="color: #F44336;">Удалить</i></a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
+

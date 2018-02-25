@@ -1,0 +1,56 @@
+{% extends 'main/base.html' %}
+
+{% load staticfiles %}
+
+{% load i18n %}
+
+{% block title %} Студенты {% endblock %}
+
+
+{% block content %}
+
+
+  <div class="table-wrapper">
+    <h3>Студенты</h3>
+    <a style="float: left" href="{%  url 'students:add_student' %}"
+                         type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Добавить </a>
+    <br>
+    <br>
+
+    <table border="0" rules="all" cellpadding="10" width='50%'>
+      <thead>
+        <tr>
+          <th>П/П</th>
+          <th>ФИО</th>
+          <th>Студенческий билет</th>
+          <th>Группа</th>
+          <th>День рождения</th>
+          <th></th>
+        </tr>
+      </thead>
+        <tbody>
+          {% for student in student_list %}
+            <tr>
+              <td>{{ forloop.counter }}</td>
+              <td>{{ student.get_name }}</td>
+              <td>{{ student.student_card }}</td>
+              <td>{{ student.group.name }}</td>
+              <td>{{ student.date_of_birth }}</td>
+              <td>
+                <a href="{% url 'students:edit_student' student.id %}"
+                   class="btn-floating waves-effect waves-light white z-depth-0">
+                  <i style="color: #1643b8;">Редактировать</i></a> /
+                <a href="{% url 'students:remove_student' student.id %}"
+                   class="btn-floating waves-effect waves-light white z-depth-0">
+                  <i style="color: #F44336;">Удалить</i></a>
+
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+  </div>
+
+{% endblock %}
+
