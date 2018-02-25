@@ -1,0 +1,179 @@
+.page-header {
+    text-align: center;
+}
+
+.thumbnail {
+    background-color: #b4d2bf;
+}
+
+.row-header {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.media-object {
+    width: 160px;
+}
+
+.media-heading {
+    text-align: center;
+}
+
+.table {
+    border: double #a5a5a5;
+    border-collapse:collapse;
+}
+
+.media-text {
+    text-align: justify;
+}
+
+.size-img {
+    width: 200px;
+    text-align: center;
+}
+
+.jambotron {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.caption {
+    font-size: small;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+.btn-default {
+    background-color: #c2c5ff;
+    border-color: #8c8c8c;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.thumb-text {
+    text-align: center;
+    font-size: 120%;
+}
+
+.program-text {
+    text-align: center;
+    font-size: 130%;
+}
+
+.pybursa-logo {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+table {
+    background:rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.table-size {
+    width: 50% ;
+}
+
+.table-body {
+    text-align: center;
+}
+
+.table-width {
+    width: 500px;
+}
+
+p {
+    text-align: left;
+    font-size: 100%;
+}
+
+.navbar-default {
+    background:rgba(255,255,255,0.5);
+}
+
+/* Отступ сверху для содержимого body */
+
+body {
+    padding-top: 10px;
+}
+
+/* Прозрачный фон для основного содержимого */
+
+.article {
+    background:rgba(255,255,255,0.3);
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Стили для подвала страницы */
+
+footer
+{
+    background:rgba(255,255,255,0.4);
+    line-height: 30px;
+    padding: 0 15px 0 15px;
+}
+
+thead {
+    text-align: center;
+    font-weight: bold;
+    background-color: #bcf0ed;
+}
+
+.sixteenth_block__table {
+    width: 90%;
+    margin: 0 5%;
+    font-size: 1.25rem;
+    text-align: center;
+    /*border: #bdbdbd 1px solid;*/
+    border-collapse: collapse;
+}
+
+.brand {
+    text-align: right;
+}
+
+.nav {
+    font-weight: normal;
+    font-size: large;
+}
+
+.img-logo {
+    /*text-align: right;*/
+    /*float: right;*/
+    width: auto;
+    margin: 5px;
+    /*padding: 10% 0;*/
+    background-size: auto;
+}
+
+caption {
+    font-size: 120%;
+    font-weight: bold;
+}
