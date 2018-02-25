@@ -34,3 +34,18 @@ EMAIL_HOST_PASSWORD = ''
 ./manage.py modelsinfo
 
 
+Сайт доступен длфя просмотра 90 дней со дня публикации по адресу:
+
+ivanbabaievtestaccount.pythonanywhere.com
+
+регистрацию не настраивал, работает локально.
+
+авторизация по:
+
+login - admin
+pass  - admin123
+
+либо
+
+login - py.dev.ib@gmail.com
+pass  - admin123
