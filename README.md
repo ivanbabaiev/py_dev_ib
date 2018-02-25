@@ -22,8 +22,8 @@ python manage.py loaddata students/fixtures/initial_data.json
 В проект добавленна регистрация с подтверждением на почту
 Для того чтобы она работала в settings.py нужно подставить актуальные данные для:
 
-EMAIL_HOST_USER = 'py.dev.ib@gmail.com'
-EMAIL_HOST_PASSWORD = 'z********1'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 
 
