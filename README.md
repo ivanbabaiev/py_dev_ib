@@ -33,6 +33,10 @@ EMAIL_HOST_PASSWORD = ''
 
 ./manage.py modelsinfo
 
+Сайт доступен длфя просмотра 90 дней с 05.07.2018 по адресу:
+
+http://ibdjangotest.pythonanywhere.com
+
 регистрацию не настраивал, работает локально.
 
 авторизация по:
