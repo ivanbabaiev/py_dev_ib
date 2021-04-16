@@ -1,8 +1,8 @@
-Django==1.11.1
+Django==1.11.29
 django-appconf==1.0.2
 django-avatar==3.1.0
 django-bootstrap3==9.1.0
 django-crispy-forms==1.7.0
 django-registration-redux==2.2
-Pillow==5.0.0
+Pillow==7.1.0
 pytz==2017.3
